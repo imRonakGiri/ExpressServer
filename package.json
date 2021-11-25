@@ -2,7 +2,7 @@
   "name": "rabba-sanga-sab-sanga",
   "version": "1.0.0",
   "description": "This is a Learning Project For All About Websites",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
@@ -13,8 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
