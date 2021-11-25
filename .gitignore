@@ -1,5 +1,4 @@
 node_modules
-*.css
+main.js
 *.*.map
-static/main.js
-static/style.css
+*.css
