@@ -1,7 +1,7 @@
 {
   "name": "rabba-sanga-sab-sanga",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a Learning Project For All About Websites",
   "main": "index.js",
   "type": "module",
   "scripts": {

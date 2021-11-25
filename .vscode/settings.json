@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 18,
+    "editor.cursorStyle": "underline-thin",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true
+}
