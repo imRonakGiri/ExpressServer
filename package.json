@@ -5,8 +5,9 @@
   "main": "app.js",
   "type": "comanjs",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "node app"
+    "love": "npm run okay && npm run start",
+    "okay": "grunt",
+    "start": "nodemon app"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-jshint": "^3.1.1",
     "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-uglify": "^5.0.1"
