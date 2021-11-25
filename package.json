@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "This is a Learning Project For All About Websites",
   "main": "app.js",
-  "type": "module",
+  "type": "comanjs",
   "scripts": {
     "start": "nodemon app.js",
-    "sass": "sass --watch public/sass/style.scss public/css/style.css"
+    "sass": "sass --watch public/sass/style.scss public/css/style.css",
+    "test": "node app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-jshint": "^3.1.1"
   }
 }
