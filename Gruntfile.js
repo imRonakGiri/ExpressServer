@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+  pkg: grunt.file.readJSON("package.json");
   grunt.initConfig({
     sass: {
       // Task
@@ -20,8 +21,18 @@ module.exports = function (grunt) {
         dest: "static/main.js",
       },
     },
+    uglify: {
+      t1: {
+        files: {
+          "static/main.min.js": "static/*.js",
+        },
+      },
+    },
   });
+
   grunt.loadNpmTasks("grunt-contrib-sass");
   grunt.loadNpmTasks("grunt-contrib-concat");
-  grunt.registerTask("default", ["sass"], ["concat"]);
+  grunt.loadNpmTasks("grunt-contrib-uglify");
+
+  grunt.registerTask("default", ["concat", "sass", "uglify"]);
 };

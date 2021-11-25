@@ -1,1 +1,2 @@
 // imlove js
+test();
