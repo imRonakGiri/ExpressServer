@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a Learning Project For All About Websites",
   "main": "app.js",
-  "type": "comanjs",
+  "type": "commonjs",
   "scripts": {
     "app": "npm i && npm run grunt && npm run nodemon",
     "grunt": "grunt",
