@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "app": "npm i && npm run grunt",
-    "grunt": "grunt",
-    "nodemon": "nodemon app"
+    "live-static": "npm i && npm run grunt",
+    "live-server": "nodemon app",
+    "grunt": "grunt"
   },
   "keywords": [],
   "author": "",
