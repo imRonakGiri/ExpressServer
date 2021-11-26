@@ -1,7 +1,8 @@
-public/js/*.js
+# file
 node_modules
-*.min.css
-*.min.js
+
+
+# static
+*.*.css
 *.*.map
-*.scss
-*.css
+*.*.js
