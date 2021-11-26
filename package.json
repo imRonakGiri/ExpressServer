@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "comanjs",
   "scripts": {
-    "love": "npm run okay && npm run start",
-    "okay": "grunt",
-    "start": "nodemon app"
+    "app": "npm i && npm run grunt && npm run nodemon",
+    "grunt": "grunt",
+    "nodemon": "nodemon app"
   },
   "keywords": [],
   "author": "",
