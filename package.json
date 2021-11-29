@@ -7,7 +7,7 @@
   "scripts": {
     "live-static": "npm i && npm run grunt",
     "live-server": "nodemon app",
-    "grunt": "grunt"
+    "grunt": "open http://localhost:3000 && grunt"
   },
   "keywords": [],
   "author": "",
