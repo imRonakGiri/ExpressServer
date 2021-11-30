@@ -1,3 +1,10 @@
-// New scss
 @import "reset";
 @import "header";
+@import "hero";
+main {
+  display: flex;
+  @import "sidebar";
+  @import "content";
+}
+@import "footer";
+@import "fontawesome";

@@ -1,0 +1,48 @@
+@import "color";
+nav.navigation {
+  background: $color_nav_bg;
+  align-items: center;
+  padding-bottom: 1%;
+  position: fixed;
+  padding-top: 1%;
+  display: flex;
+  width: 100vw;
+
+  i.logo {
+    align-items: center;
+    font-family: serif;
+    padding-left: 10%;
+    color: $color_logo;
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 50vw;
+  }
+
+  ul.menu {
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    width: 50vw;
+
+    li.menu-item {
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+
+      a {
+        background: $color_menu_bg;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        padding: 5px;
+      }
+    }
+
+    li:hover {
+      a {
+        background: $color_a_hover_bg;
+        color: $color_a_hover;
+      }
+    }
+  }
+}

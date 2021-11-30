@@ -1,24 +1,5 @@
 header {
-  background: wheat;
-  text-align: center;
-
-  i.logo {
-    color: rgb(102, 41, 12);
-  }
-
-  ul.menu {
-    display: flex;
-    justify-content: space-evenly;
-
-    li.menu-item {
-      background: yellowgreen;
-      list-style: none;
-
-      a {
-        text-decoration: none;
-        padding: 5px;
-        margin: 5px;
-      }
-    }
-  }
+  display: flex;
+  width: 100vw;
+  @import "navigation";
 }

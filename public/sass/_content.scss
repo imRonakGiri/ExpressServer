@@ -1,0 +1,11 @@
+@import "color";
+div.content {
+  background: $color_content_bg;
+  justify-content: center;
+  color: $color_content;
+  align-items: center;
+  display: flex;
+  width: 80vw;
+  border-left: 1px solid gray;
+  height: auto;
+}
