@@ -1,5 +1,5 @@
-// New JS
-// const json = require("./site.json");
-console.log({
-  title: "www - World Wide Web",
-});
+(function listNow(data) {
+  data.forEach((e) => {
+    $(".side_list").innerHTML += `<li>${e}</li>`;
+  });
+})(ol);
