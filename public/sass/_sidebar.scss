@@ -1,3 +1,11 @@
 div.sidebar {
   width: 20vw;
+  ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    li {
+      height: 70px;
+    }
+  }
 }
