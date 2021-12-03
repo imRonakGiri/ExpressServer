@@ -1,7 +1,7 @@
 {
-  "name": "rabba-sanga-sab-sanga",
+  "name": "Express-js",
   "version": "1.0.0",
-  "description": "This is a Learning Project For All About Websites",
+  "description": "This is a Learning & testing Express Project",
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
