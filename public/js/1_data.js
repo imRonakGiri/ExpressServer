@@ -1,3 +1,4 @@
+// this is wikipedia/javascipt data For Learning tech only.
 const ol = [
   "History",
   "Creation at Netscape",
