@@ -5,8 +5,6 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "static": "npm run live-static",
-    "server": "npm run live-server",
     "live-static": "npm i && npm run grunt",
     "live-server": "nodemon app",
     "grunt": "grunt"
