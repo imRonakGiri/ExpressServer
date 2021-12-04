@@ -9,7 +9,7 @@
     "server": "npm run live-server",
     "live-static": "npm i && npm run grunt",
     "live-server": "nodemon app",
-    "grunt": "open http://localhost:5500/static/ && grunt"
+    "grunt": "grunt"
   },
   "keywords": [],
   "author": "",
