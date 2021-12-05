@@ -2,19 +2,24 @@
 
 ###### This is a Simple Express Server ...
 
-#### *run this commantd in your terminal*
+### *Run this commantd in your terminal*
 
 ```script
  npm run live-static
 ```
 
-##### while you run this command 
-##### it will install all the dependency 
-##### run the grunt command so that all the code we write in public dir./ 
-##### it will take those code,concate that code, and minify code 
-##### and continuacely whatch for changes 
-##### in public file, and the Output goes to static file...
+###### When you run this command
+###### It will establish all dependencies
+###### And Run the grant command so that all the codes we write in the public file
+###### It will take that code, and concatenate and minify the code
+###### After it will constantly watch for changes, and output goes to static file ...
+
+### *Run this commantd in your second terminal*
 
 ```script
  npm run live-server
 ```
+
+###### When you run this command
+###### it will run app.js file with nodemon
+###### now you need to open browser and find https://localhost:8080
